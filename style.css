@@ -1,0 +1,220 @@
+
+/*
+font-family: 'Cutive Mono', monospace;
+font-family: 'Inconsolata', monospace;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;*/
+
+.header {
+	position:fixed;
+	z-index: 1;
+}
+
+.head1{
+	font-family: "Inconsolata", monospace;
+	font-size: 12px;
+	color: black;
+	background-color: ;
+	width: 120px;
+	margin: 40px 0 0 0;
+	padding: 0px 0 0 0;
+	text-decoration: none;
+	letter-spacing: 0.4px;
+}
+
+.head2:hover {
+	color:white;
+	text-decoration: none;
+}
+
+a { 
+	color: inherit; 
+	text-decoration: none} 
+
+.listitem {
+	font-family: "Inconsolata", monospace;
+	font-size: 10.7px;
+	color: grey;
+	background-color:;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.endnote {
+	font-family: "Inconsolata", monospace;
+	font-size: 10.7px;
+	color: grey;
+	background-color:;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+.break {
+	font-family: "Inconsolata", monospace;
+	font-size: 9.5px;
+	color: grey;
+	background-color:;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.textcontainer {
+	margin: 85px 0 0 0;
+	position: fixed;
+}
+
+.about {
+	font-family: "Inconsolata", monospace;
+	font-size: 10px;
+	color: grey;
+	background-color:;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+	width: 140px;
+	text-align: left;
+}
+
+.contact {
+	font-family: "Inconsolata", monospace;
+	font-size: 10px;
+	color: grey;
+	background-color:;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 140px;
+	text-align: left;
+}
+
+
+.img1 {
+	width: 100%;
+	max-width: 600px;
+	margin: 38px 0 0 60px;
+	/* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.img2 {
+	width: 100%;
+	max-width: 600px;
+	margin: 38px 0 0 60px;
+}
+
+.imgtext {
+	display:block;
+	font-family: "Inconsolata", monospace;
+	font-size: 10.7px;
+	color: grey;
+  width: 600px;
+  margin: 0 0 0 60px;
+}
+
+body {
+	padding-bottom: 30px;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+}
+
+button:focus {
+    outline:none;
+}
+
+@media only screen and (max-width: 992px) {
+	.header {
+		margin: 0 0 0 1px;
+		z-index: 1;
+	}
+
+	.head1 {
+		color: #f7f7f7;
+	}
+
+	.textcontainer {
+		margin: 25px 0 0 1px;
+	}
+
+	.listitem {
+		color: #f7f7f7;
+	}
+	.about {
+		color: #f7f7f7;
+	}
+
+	.break {
+		color: #f7f7f7;
+	}
+	
+	.contact {
+		color: #f7f7f7;
+	}
+
+  .img2 {
+	  margin: 38px 0 0 0;
+	  display: block;
+  }
+
+  .imgtext {
+  	position: relative;
+  	width: 100%;
+  	max-width: 600px;
+  	margin: 0 0 0 0;
+  	background-color: white;
+  	z-index: 2;
+  }
+
+  .head2:hover {
+	  color:black;
+	  text-decoration: none;
+  }
+
+  .listitem:hover {
+	  color:black;
+	  text-decoration: none;
+  }
+  
+@media only screen and (max-width: 420px) {
+
+.container-fluid {
+	padding: 0 11.5px 0 11.5px;
+}
+
+.col-md-8 {
+	padding: 0 0 0 0;
+}
+
+.img1 {
+	max-width: 100%;
+	margin: 11px 0 0 0;
+}
+
+.img2 {
+	max-width: 100%;
+	margin: 1px 0 0 0;
+}
+
+.imgtext {
+	font-size: 9px;
+}
+
+.head1 {
+	margin: 14px 0 0 0;
+}
+
+.col-sm-2 {
+	padding: 0 0 0 0;
+}
+
+.col-xs-2 {
+	padding: 0 0 0 0;
+}
+
+.textcontainer {
+	margin: 58px 0 0 1px;
+}
+
+}
